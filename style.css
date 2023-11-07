@@ -1,0 +1,68 @@
+/* style.css */
+nav {
+    background-color: burlywood;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    font-family: Arial, sans-serif; 
+ 
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+.logo{
+    position:absolute;
+    left: 30px;
+    top: 1px;
+    
+}
+.logo1{
+    position:absolute;
+    left: 110px;
+    top: 1px;
+    font-size: smaller;
+    font-family:cursive;
+    color: #000;
+    
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+    color: #050505;
+}
+
+.a1 {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+.a1:hover {
+    color: rgb(243, 243, 243); /* Change the color to your desired hover color */
+}
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left-column,.right-column{
+    flex-basis: 50%;
+}
+.right-column img{
+    width: 100px;
+}
